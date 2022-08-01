@@ -10,7 +10,7 @@ describe("index.html", () => {
 
   it("has the text content of 'Flatiron School'", () => {
     const aTag = document.querySelector("a");
-    expect(aTag).to.have.text("Flatiron School");
+    expect(aTag).to.have.toString("Flatiron School");
   });
 
   it("has the href attribute of 'https://flatironschool.com'", () => {
